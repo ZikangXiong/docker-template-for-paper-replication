@@ -20,7 +20,7 @@ function start_container() {
         --name "$PROJECT_NAME" \
         -v ~/data:/workspace/data \
         -v "$SRC_DIR"://workspace/"$PROJECT_NAME" \
-        -p 8080:8888 \
+        -p "$JUPYTER_PORT":8888 \
         --gpus $GPU \
         -w $WORKSPACE \
         -dit $BASE_IMAGE_NAME
