@@ -13,4 +13,4 @@ fi
 
 WORKSPACE="/workspace"
 JUPYTER_PORT="8080"
-GPU="all"
+GPU="0"
