@@ -1,0 +1,9 @@
+#!/bin/bash
+
+DOCKER_HUB_USERNAME="caffett"
+PROJECT_NAME="neural_shield"
+DOCKER_TAG="latest"
+BASE_IMAGE_NAME="$DOCKER_HUB_USERNAME/$PROJECT_NAME:$DOCKER_TAG"
+
+WORKSPACE="/workspace"
+GPU="all"
