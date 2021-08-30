@@ -21,6 +21,6 @@ This template can be reused for any Docker-based replication package. Users can 
     ├── config.sh           # Configurate docker image and project information here
     ├── dev_into.sh         # Developing mode, create a bash process with docker container
     ├── dev_start.sh        # Developing mode, create a docker container with docker image
-    ├── dev_stop.sh         # Developing mode, stop and remove (with -f) a docker container
+    ├── dev_stop.sh         # Developing mode, stop and remove (with -r) a docker container
     └── notebook_start.sh   # If jupyter-lab installed, start the jupyter-lab and expose it to port set (default 8080) on the host
 ```  
