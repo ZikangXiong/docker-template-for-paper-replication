@@ -56,5 +56,5 @@ function exec_bash() {
 function exec_notebook() {
     echo "👨‍💻 Starting Jupyterlab process of $BASE_IMAGE_NAME -- $CONTAINER"
     notebook_cmd="jupyter lab --ip=0.0.0.0 --port 8888 --allow-root"
-    docker exec -it "$CONTAINER" "$notebook_cmd"
+    docker exec -it $CONTAINER $notebook_cmd
 }
